@@ -1,0 +1,23 @@
+﻿@model SuperHeroi
+
+@{
+    ViewData["Title"] = "Editar Super Herói";    
+}
+
+
+<form asp-action="Editar" method="POST">   
+
+    <input asp-for='Id' type='hidden'> 
+       
+    <partial name="_Form"/>    
+    <partial name='_SubmitChick' />
+
+</form>
+
+<br>
+<br>
+
+<form asp-action="excluir" method="post" class='right'>
+    <input asp-for='Id' type='hidden'> 
+    <button type='submit' class='waves-effect waves-light btn red darken-3 ConfirmarSubmit'><i class='fa fa-trash left'></i>Excluir</button>    
+</form>

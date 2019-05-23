@@ -1,0 +1,22 @@
+{
+  "name": "Liga da Justiça",
+  "short_name": "Liga da Justiça",
+  "theme_color": "#f44200",
+  "background_color": "#f44200",
+  "display": "fullscreen",
+  "Scope": "/",
+  "start_url": "/",
+  "icons":[  
+    {  
+       "src":"/android-chrome-192x192.png",
+       "sizes":"192x192",
+       "type":"image/png"
+    },
+    {  
+       "src":"/android-chrome-512x512.png",
+       "sizes":"512x512",
+       "type":"image/png"
+    }
+ ],
+  "splash_pages": null
+}

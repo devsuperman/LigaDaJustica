@@ -1,0 +1,13 @@
+@model SuperHeroi
+
+<div class="input-field">
+    <input asp-for="Nome" class="validate" required maxlength="20">        
+    <label asp-for="Nome"></label>
+    <span class="helper-text" data-error='Campo obrigatório.'></span>
+</div>
+
+<div class="input-field">
+    <input asp-for="SuperPoder" class="validate" required maxlength="30">        
+    <label asp-for="SuperPoder"></label>
+    <span class="helper-text" data-error='Campo obrigatório.'></span>
+</div>

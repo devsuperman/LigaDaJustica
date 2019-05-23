@@ -1,0 +1,10 @@
+﻿@model SuperHeroi
+
+@{
+    ViewData["Title"] = "Criar Super Herói";    
+}
+
+<form asp-action="Criar" method="POST">    
+    <partial name="_Form"/>    
+    <partial name='_SubmitChick' />      
+</form>
