@@ -1,5 +1,5 @@
-# LigaDaJustica
-CRUD de super heróis desenvolvido em ASPNET CORE MVC e com alguns recursos de PWA!
+# Liga da Justiça
+É um CRUD de super heróis desenvolvido em ASPNET CORE MVC e com alguns recursos de PWA.
 
 # Ao vivo! 
-wwww.ligadajustica.azurewebsites.com
+[http://wwww.ligadajustica.azurewebsites.com](https://wwww.ligadajustica.azurewebsites.com)
