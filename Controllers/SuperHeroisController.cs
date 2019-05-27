@@ -74,6 +74,7 @@ namespace LigaDaJustica.Controllers
 
             db.SuperHerois.Remove(model);
             await db.SaveChangesAsync();
+            this.NotificarSucesso();
 
             return RedirectToAction("Index");
         }

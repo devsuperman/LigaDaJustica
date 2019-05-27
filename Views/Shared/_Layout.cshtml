@@ -19,16 +19,19 @@
   
   <header>       
     
-    <nav class="blue darken-4 top-nav" role="navigation">
-      <div class="nav-wrapper container">        
-        <a href="#" data-target="slide-out" class="sidenav-trigger">
-          <i class="fas fa-bars"></i>
-        </a>             
-        <span id='titulo-da-pagina'>
-          @ViewBag.Title                             
-        </span>                     
-      </div>                
-    </nav>   
+    <div class="navbar-fixed">
+
+      <nav class="blue darken-4 top-nav" role="navigation">
+        <div class="nav-wrapper container">        
+          <a href="#" data-target="slide-out" class="sidenav-trigger">
+            <i class="fas fa-bars"></i>
+          </a>             
+          <span id='titulo-da-pagina'>
+            @ViewBag.Title                             
+          </span>                     
+        </div>                
+      </nav>   
+    </div>
 
     <ul id="slide-out" class="sidenav sidenav-fixed">
       <li class='logo'>
