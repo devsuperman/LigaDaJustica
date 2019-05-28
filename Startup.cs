@@ -1,11 +1,11 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Configuration;
+﻿using LigaDaJustica.Data;
+using Microsoft.AspNetCore.Mvc;
+using LigaDaJustica.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
-using LigaDaJustica.Data;
-using LigaDaJustica.Extensions;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace LigaDaJustica
 {

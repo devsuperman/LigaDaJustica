@@ -7,14 +7,7 @@ namespace template.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly Contexto db;
-
-        public HomeController(Contexto db)
-        {
-            this.db = db;
-        }
-
-        public IActionResult Index() => View();
+        public IActionResult Index() => RedirectToAction("Index", "SuperHerois");
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
